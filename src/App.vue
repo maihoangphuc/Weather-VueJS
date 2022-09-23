@@ -4,7 +4,7 @@
     <!-- app -->
     <div class="app">
       <!-- container -->
-      <div class="container" style="max-width: 430px; min-width: 360px">
+      <div class="container weather">
 
         <!-- title -->
         <h1 class="title text-center">Weather in</h1>
@@ -124,11 +124,11 @@
               <div class="row">
                 <div class="col d-flex justify-content-between px-5 mx-5">
                   <p>
-                    <img src="./assets/down.svg" alt="" />
+                    <img src="./assets/svg/down.svg" alt="down" />
                     {{ weather.lowTemp }}&deg;C
                   </p>
                   <p>
-                    <img src="./assets/up.svg" alt="" />
+                    <img src="./assets/svg/up.svg" alt="up" />
                     {{ weather.highTemp }}&deg;C
                   </p>
                 </div>
@@ -302,6 +302,6 @@ export default {
 </script>
 
 <style>
-@import "./assets/custom.css";
-@import "./assets/animation.css";
+@import "./assets/style/custom.css";
+@import "./assets/style/animation.css";
 </style>

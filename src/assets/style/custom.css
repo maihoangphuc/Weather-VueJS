@@ -1,15 +1,19 @@
 #main {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .app {
   width: 100%;
-  height: 640px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.weather {
+  width: 430px !important;
 }
 
 .day {
@@ -54,7 +58,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.city-country{
+.city-country {
   margin-top: 0px;
 }
 
